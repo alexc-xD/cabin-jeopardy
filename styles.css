@@ -32,6 +32,7 @@
     justify-content: space-between;
     align-items: center;
     text-shadow: var(--text-shadow);
+    text-decoration: underline;
  }
  .score {
     display: flex;
