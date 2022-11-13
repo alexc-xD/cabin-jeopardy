@@ -12,11 +12,12 @@
     font-family: sans-serif;
     font-weight: bold;
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .top-header h1 {
     font-size: 100px;
-    margin:10px;
+    margin:10px 0px;
     text-shadow:3px 4px black;
 }
 
@@ -28,4 +29,36 @@
 
 .top-header .score {
     color:gold;
+}
+
+.board {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: solid 8px black; */
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+}
+
+.board .row1 {
+    color:gold;
+    margin:40px;
+    padding:50px 110px;
+    border: solid 5px gold;
+    box-shadow: 9px 10px black;
+    text-shadow: 2px 3px rgb(176, 132, 20);
+    text-decoration: underline;
+}
+
+.board .first-row {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.board .second-row {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
