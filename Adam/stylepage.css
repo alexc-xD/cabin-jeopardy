@@ -1,0 +1,31 @@
+.body-page {
+    background: linear-gradient(#2E2E3A, #0C0C2C);
+    background-attachment: fixed;
+    height: 100%;
+}
+
+.top-header {
+    display:flex;
+    justify-content: space-around;
+    color:white;
+    text-decoration: underline;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+.top-header h1 {
+    font-size: 100px;
+    margin:10px;
+    text-shadow:3px 4px black;
+}
+
+.top-header p {
+    font-size:40px;
+    border: white solid 4px;
+    padding:10px;
+}
+
+.top-header .score {
+    color:gold;
+}
