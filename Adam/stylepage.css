@@ -11,8 +11,8 @@
     text-decoration: underline;
     font-family: sans-serif;
     font-weight: bold;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 70px;
+    margin-bottom: 30px;
 }
 
 .top-header h1 {
@@ -38,26 +38,20 @@
     /* border: solid 8px black; */
     font-family: sans-serif;
     font-weight: bold;
-    font-size: 80px;
+    font-size: 65px;
 }
 
 .board .row1 {
     color:gold;
-    margin:40px;
-    padding:50px 110px;
+    margin:20px;
+    padding:40px 90px;
     border: solid 5px gold;
     box-shadow: 9px 10px black;
-    text-shadow: 2px 3px rgb(176, 132, 20);
+    text-shadow: 2px 3px rgb(151, 112, 15);
     text-decoration: underline;
 }
 
 .board .first-row {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.board .second-row {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
