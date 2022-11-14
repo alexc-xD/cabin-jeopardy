@@ -79,3 +79,45 @@
 li {
     list-style: none;
 }
+
+.popup {
+    font-family: sans-serif;
+    width: 790px;
+    height: 750px;
+    background:linear-gradient(rgb(11, 11, 148), #0C0C2C);
+    border: 5px solid white;
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 51%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+
+.open-popup {
+    visibility: visible;
+    top: 52%;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.popup h2 {
+    color:gold;
+    text-decoration: underline;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 30px 0 10px;
+}
+
+.popup button {
+    width:100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+}

@@ -9,13 +9,18 @@
 </head>
 <body class="body-page">
     <header class="top-header">
-    <h1>The Tim Show</h1>
+    <h1>Placeholder</h1>
     <p>Score: <span class="score">3242</span></p>
     </header>
     <div class="entire">
         <ul class="col">
             <li class="cat">Category 1</li>
-            <a href="#"><li class="points">100</li></a>
+            <a href="#"><li class="points" onclick="openPopup()">100</li></a>
+                <div class="popup" id="popup">
+                    <h2>- 100 POINT QUESTION -</h2>
+                    <p>This is example text.</p>
+                    <button type="button" onclick="closePopup()">Close</button>
+                </div>
             <a href="#"><li class="points">200</li></a>
             <a href="#"><li class="points">300</li></a>
             <a href="#"><li class="points">400</li></a>
@@ -54,6 +59,17 @@
             <a href="#"><li class="points">500</li></a>
         </ul>
     </div>
+
+    <script>
+        let popup = document.getElementById("popup")
+
+        function openPopup() {
+            popup.classList.add("open-popup");
+        }
+        function closePopup() {
+            popup.classList.remove("open-popup");
+        }
+    </script>
 </body>
 </body>
 </html>
