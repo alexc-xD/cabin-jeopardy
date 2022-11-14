@@ -2,6 +2,7 @@
     background: #0C0C2C;
     background-attachment: fixed;
     height: 100%;
+    margin: 0px;
 }
 
 .top-header {
@@ -24,6 +25,8 @@
     font-size:40px;
     border: white solid 4px;
     padding:10px;
+    height: 100%;
+    white-space: nowrap;
 }
 
 .top-header .score {
@@ -31,9 +34,11 @@
 }
 
 .entire {
-    border:solid 10px black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: column;
+    /* border:solid 10px black; */
     background: #0b0b27;
-    width: 1660px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -54,7 +59,7 @@
     text-align: center;
 }
 
-.category .row2 {
+.row2 {
     color: white;
     border: 5px solid white;
     padding:15px;
@@ -76,12 +81,18 @@
 
 .board .row1:hover {
     transform: scale(1.11);
-    text-shadow: 0px 0px 5px gold;
-    box-shadow: 0px 0px 10px inset goldenrod;
+    text-shadow: 0px 0px 5px goldenrod;
+    box-shadow: 0px 0px 12px inset goldenrod;
+    border: solid 5px yellow;
 }
 
 .board .first-row {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-direction: column;
+}
+
+li {
+    list-style: none;
 }
