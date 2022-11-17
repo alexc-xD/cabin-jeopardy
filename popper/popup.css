@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(103, 103, 103);
+    color:white;
+    margin:0;
+}
+
+.popup h2 {
+    font-size: 50px;
+}
+
+.popup p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}
+
+.popup {
+    position: absolute;
+    text-align: center;
+    width: 50px;
+    height: 100px;
+    padding: 30px 10px;
+    background:rgba(0, 0, 0, 0.8);
+}
