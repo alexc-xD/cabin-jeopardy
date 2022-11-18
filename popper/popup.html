@@ -11,22 +11,48 @@
     <h1>Welcome to my page</h1>
     <button onClick="togglePopup()">Open popup</button>
     <div class="popup hidden">
+        <div class="crate">
         <h2>Hello popup tutorial</h2>
         <p>This is epic popup text</p>
         <button onClick="togglePopup()">Close popup</button>
+        </div>
     </div>
-    <button onClick="togglePopup()">Open another popup</button>
-    <div class="popup hidden">
+    <button onClick="togglePropup()">Open another popup</button>
+    <div class="popup2 hidden">
+        <div class="crate">
         <h2>This is different text</h2>
         <p>This is epic popup text</p>
-        <button onClick="togglePopup()">Close popup</button>
+        <button onClick="togglePropup()">Close popup</button>
+        </div>
     </div>
+    <ul>
+        <li>one</li>
+        <div class="stinker hiden">
+            <div class="popperup">
+            <h2> this is different text</h2>
+            <button>close me</button>
+            </div>
+        </div>
+        <li>two</li>
+        <div class="stinker hiden">
+            <div class="popperup">
+            <h2> this is different text</h2>
+            <button>close me</button>
+            </div>
+            </div>
+        <li>three</li>
+    </ul>
     <script>
         const popup = document.querySelector('.popup');
+        const popup2 = document.querySelector('.popup2');
         console.log(popup);
+        console.log(popup2);
 
         function togglePopup() {
             popup.classList.toggle('hidden')
+        }
+        function togglePropup() {
+            popup2.classList.toggle('hidden')
         }
     </script>
 </body>
