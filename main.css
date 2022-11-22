@@ -49,6 +49,7 @@
 .col {
     font-family: sans-serif;
     font-weight: bold;
+    margin:0;
 }
 
 .cat {
@@ -91,6 +92,7 @@ li {
     background:linear-gradient(rgb(11, 11, 153), #17175a);
     position: absolute;
     left: 49.16%;
+    top: 50%;
     transform: translate(-50%, -50%) scale(0.1);
     text-align: center;
     padding: 30px 34.5px 0;
@@ -98,7 +100,7 @@ li {
     transition: transform 0.5s, top 0.3s;
 }
 
-.open-pop, .open-pop2, .open-pop3, .open-pop4, .open-pop21, .open-pop22 {
+.open-pop, .open-pop2, .open-pop3, .open-pop4, .open-pop5, .open-pop21, .open-pop22 {
     visibility: visible;
     top: 49%;
     transform: translate(-50%, -50%) scale(1);
@@ -110,6 +112,8 @@ li {
     align-items: center;
     color:gold;
     border:gold solid 5px;
+    max-width: 78vw;
+    overflow-wrap: break-word;
     text-shadow: 0px 5px black;
     box-shadow: 5px 6px black;
     font-size: 72px;
