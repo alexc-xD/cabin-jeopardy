@@ -8,7 +8,7 @@
 
 .top-header {
     display:flex;
-    justify-content: center;
+    justify-content: space-evenly;
     color:white;
     text-decoration: underline;
     font-family: sans-serif;
@@ -28,9 +28,8 @@
 .top-header p {
     font-size:40px;
     border: white solid 4px;
-    padding:10px;
+    padding:12px;
     height: 100%;
-    margin-left: 40px;
     white-space: nowrap;
 }
 
@@ -69,7 +68,7 @@
     text-shadow: 2px 3px rgb(16, 16, 255);
     text-decoration: underline;
     margin: 30px 0px;
-    padding: 40px 20px;
+    padding: 38px 20px;
     cursor: pointer;
     transition: all .2s ease-in-out;
 }
@@ -86,9 +85,14 @@ li {
 }
 
 .popup {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
     font-family: sans-serif;
     width: 99%;
     height: 99.7%;
+    overflow: auto;
     background:linear-gradient(rgb(11, 11, 153), #17175a);
     position: absolute;
     left: 49.16%;
@@ -100,7 +104,7 @@ li {
     transition: transform 0.5s, top 0.3s;
 }
 
-.open-pop, .open-pop2, .open-pop3, .open-pop4, .open-pop5, .open-pop21, .open-pop22 {
+.open-pop, .open-pop2, .open-pop3, .open-pop4, .open-pop5, .open-pop21, .open-pop22, .open-pop23, .open-pop24, .open-pop25 {
     visibility: visible;
     top: 49%;
     transform: translate(-50%, -50%) scale(1);
@@ -116,7 +120,7 @@ li {
     overflow-wrap: break-word;
     text-shadow: 0px 5px black;
     box-shadow: 5px 6px black;
-    font-size: 72px;
+    font-size: 84px;
     padding:20px;
     font-weight: bold;
     margin: 30px 0 10px;
@@ -124,7 +128,8 @@ li {
 
 .popup p {
     color: white;
-    font-size: 48px;
+    text-shadow: 0px 5px black;
+    font-size: 60px;
 }
 
 .popup button {

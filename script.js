@@ -5,6 +5,9 @@ let popup1004 = document.getElementById("popup4")
 let popup1005 = document.getElementById("popup5")
 let popup2001 = document.getElementById("popup21")
 let popup2002 = document.getElementById("popup22")
+let popup2003 = document.getElementById("popup23")
+let popup2004 = document.getElementById("popup24")
+let popup2005 = document.getElementById("popup25")
 
 function openPopup() {
     popup1001.classList.add("open-pop");
@@ -53,4 +56,25 @@ function openPopup22() {
 }
 function closePopup22() {
     popup2002.classList.remove("open-pop22");
+}
+
+function openPopup23() {
+    popup2003.classList.add("open-pop23");
+}
+function closePopup23() {
+    popup2003.classList.remove("open-pop23");
+}
+
+function openPopup24() {
+    popup2004.classList.add("open-pop24");
+}
+function closePopup24() {
+    popup2004.classList.remove("open-pop24");
+}
+
+function openPopup25() {
+    popup2005.classList.add("open-pop25");
+}
+function closePopup25() {
+    popup2005.classList.remove("open-pop25");
 }
