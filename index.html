@@ -14,40 +14,41 @@
     </header>
     <div class="entire">
         <ul class="col" style="padding-left: 0px;">
-            <li class="cat">Category 1</li>
+            <li class="cat">Tim</li>
             <li class="points" onclick="openPopup()">100</li>
                 <div class="popup" id="popup">
                     <h2>100 POINT QUESTION</h2>
                     <p>This is example text.</p>
-                    <button type="button" onclick="closePopup()">Close</button>
+                    <p class="prev" onclick="displayAns()">Answer: <span class="ans" id="ans">insert text</span></p>
+                    <button type="button" onclick="closePopup(), removeAns()">close</button>
                 </div>
             <li class="points" onclick="openPopup2()">200</li>
             <div class="popup" id="popup2">
                 <h2>200 POINT QUESTION</h2>
                 <p>This is epic example text.</p>
-                <button type="button" onclick="closePopup2()">Close</button>
+                <button type="button" onclick="closePopup2()">close</button>
             </div>
             <li class="points" onclick="openPopup3()">300</li>
             <div class="popup" id="popup3">
                 <h2>300 POINT QUESTION</h2>
                 <p>This is some more example text.</p>
-                <button type="button" onclick="closePopup3()">Close</button>
+                <button type="button" onclick="closePopup3()">close</button>
             </div>
             <li class="points" onclick="openPopup4()">400</li>
             <div class="popup" id="popup4">
                 <h2>400 POINT QUESTION</h2>
                 <p>This is some more epic example text.</p>
-                <button type="button" onclick="closePopup4()">Close</button>
+                <button type="button" onclick="closePopup4()">close</button>
             </div>
             <li class="points" onclick="openPopup5()">500</li>
             <div class="popup" id="popup5">
                 <h2>500 POINT QUESTION</h2>
                 <p>This is the final epic example text.</p>
-                <button type="button" onclick="closePopup5()">Close</button>
+                <button type="button" onclick="closePopup5()">close</button>
             </div>
         </ul>
         <ul class="col">
-            <li class="cat">Category 2</li>
+            <li class="cat">Jason</li>
             <li class="points" onclick="openPopup21()">100</li>
             <div class="popup" id="popup21">
                     <h2>100 POINT QUESTION</h2>
@@ -80,28 +81,103 @@
             </div>
         </ul>
         <ul class="col">
-            <li class="cat">Category 3</li>
-            <li class="points">100</li>
-            <li class="points">200</li>
-            <li class="points">300</li>
-            <li class="points">400</li>
-            <li class="points">500</li>
+            <li class="cat">Adam</li>
+            <li class="points" onclick="openPopup31()">100</li>
+            <div class="popup" id="popup31">
+                <h2>100 POINT QUESTION</h2>
+                <p>i am some new text</p>
+                <button type="button" onclick="closePopup31()">close</button>
+            </div>
+            <li class="points" onclick="openPopup32()">200</li>
+            <div class="popup" id="popup32">
+                <h2>200 POINT QUESTION</h2>
+                <p>i am some newer text</p>
+                <button type="button" onclick="closePopup32()">close</button>
+            </div>
+            <li class="points" onclick="openPopup33()">300</li>
+            <div class="popup" id="popup33">
+                <h2>300 POINT QUESTION</h2>
+                <p>i am some even newer text</p>
+                <button type="button" onclick="closePopup33()">close</button>
+            </div>
+            <li class="points" onclick="openPopup34()">400</li>
+            <div class="popup" id="popup34">
+                <h2>400 POINT QUESTION</h2>
+                <p>dont look at me</p>
+                <button type="button" onclick="closePopup34()">close</button>
+            </div>
+            <li class="points" onclick="openPopup35()">500</li>
+            <div class="popup" id="popup35">
+                <h2>500 POINT QUESTION</h2>
+                <p>i said dont look at me</p>
+                <button type="button" onclick="closePopup35()">close</button>
+            </div>
         </ul>
         <ul class="col">
             <li class="cat">Category 4</li>
-            <li class="points">100</li>
-            <li class="points">200</li>
-            <li class="points">300</li>
-            <li class="points">400</li>
-           <li class="points">500</li>
+            <li class="points" onclick="openPopup41()">100</li>
+            <div class="popup" id="popup41">
+                <h2>100 POINT QUESTION</h2>
+                <p>bruh face momen</p>
+                <button type="button" onclick="closePopup41()">close</button>
+            </div>
+            <li class="points" onclick="openPopup42()">200</li>
+            <div class="popup" id="popup42">
+                <h2>200 POINT QUESTION</h2>
+                <p>cmon bruh, look at u</p>
+                <button type="button" onclick="closePopup42()">close</button>
+            </div>
+            <li class="points" onclick="openPopup43()">300</li>
+            <div class="popup" id="popup43">
+                <h2>300 POINT QUESTION</h2>
+                <p>bruh still lookin goofy</p>
+                <button type="button" onclick="closePopup43()">close</button>
+            </div>
+            <li class="points" onclick="openPopup44()">400</li>
+            <div class="popup" id="popup44">
+                <h2>400 POINT QUESTION</h2>
+                <p>why bruh still here?</p>
+                <button type="button" onclick="closePopup44()">close</button>
+            </div>
+           <li class="points" onclick="openPopup45()">500</li>
+           <div class="popup" id="popup45">
+            <h2>500 POINT QUESTION</h2>
+            <p>go away bruh frfr</p>
+            <button type="button" onclick="closePopup45()">close</button>
+        </div>
         </ul>
         <ul class="col">
             <li class="cat">Category 5</li>
-            <li class="points">100</li>
-            <li class="points">200</li>
-            <li class="points">300</li>
-            <li class="points">400</li>
-            <li class="points">500</li>
+            <li class="points" onclick="openPopup51()">100</li>
+            <div class="popup" id="popup51">
+                <h2>100 POINT QUESTION</h2>
+                <p>bruhbruhbruh</p>
+                <button type="button" onclick="closePopup51()">close</button>
+            </div>
+            <li class="points" onclick="openPopup52()">200</li>
+            <div class="popup" id="popup52">
+                <h2>200 POINT QUESTION</h2>
+                <p>cmon lil bruh watchu doin?</p>
+                <button type="button" onclick="closePopup52()">close</button>
+            </div>
+            <li class="points" onclick="openPopup53()">300</li>
+            <div class="popup" id="popup53">
+                <h2>300 POINT QUESTION</h2>
+                <p>dont keep goin bruh</p>
+                <button type="button" onclick="closePopup53()">close</button>
+            </div>
+            <li class="points" onclick="openPopup54()">400</li>
+            <div class="popup" id="popup54">
+                <h2>400 POINT QUESTION</h2>
+                <p>hello im rydawg</p>
+                <button type="button" onclick="closePopup54()">close</button>
+            </div>
+            <li class="points" onclick="openPopup55()">500</li>
+           <div class="popup" id="popup55">
+            <h2>500 POINT QUESTION</h2>
+            <p>now youve really pissed me off</p>
+            <button type="button" onclick="closePopup55()">close</button>
+        </div>
         </ul>
     </div>
 

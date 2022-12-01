@@ -48,11 +48,14 @@
 .col {
     font-family: sans-serif;
     font-weight: bold;
+    width:275px;
     margin:0;
 }
 
 .cat {
     color: white;
+    background: #121253;
+    text-align: center;
     font-size: 40px;
     border: 4px solid white;
     box-shadow: 6px 7px black;
@@ -63,9 +66,9 @@
     font-size: 65px;
     color: gold;
     border: 5px solid gold;
-    box-shadow: 6px 7px rgb(16, 16, 255);
-    background: #101044;
-    text-shadow: 2px 3px rgb(16, 16, 255);
+    box-shadow: 6px 7px rgb(29, 29, 255);
+    background: #121253;
+    text-shadow: 2px 3px rgb(29, 29, 255);
     text-decoration: underline;
     margin: 30px 0px;
     padding: 38px 20px;
@@ -76,7 +79,7 @@
 .points:hover {
     transform: scale(1.12);
     text-shadow: 0px 0px 10px rgb(26, 26, 255);
-    box-shadow: 0px 0px 12px inset goldenrod;
+    box-shadow: 0px 0px 15px inset goldenrod;
     border: solid 5px yellow;
 }
 
@@ -94,7 +97,7 @@ li {
     height: 99.7%;
     overflow: auto;
     background:linear-gradient(rgb(11, 11, 153), #17175a);
-    position: absolute;
+    position: fixed;
     left: 49.16%;
     top: 50%;
     transform: translate(-50%, -50%) scale(0.1);
@@ -104,7 +107,9 @@ li {
     transition: transform 0.5s, top 0.3s;
 }
 
-.open-pop, .open-pop2, .open-pop3, .open-pop4, .open-pop5, .open-pop21, .open-pop22, .open-pop23, .open-pop24, .open-pop25 {
+.open-pop, .open-pop2, .open-pop3, .open-pop4, .open-pop5, .open-pop21, .open-pop22, .open-pop23, .open-pop24, .open-pop25,
+ .open-pop31, .open-pop32, .open-pop33, .open-pop34, .open-pop35, .open-pop41, .open-pop42, .open-pop43, .open-pop44,
+  .open-pop45, .open-pop51, .open-pop52,.open-pop53, .open-pop54, .open-pop55 {
     visibility: visible;
     top: 49%;
     transform: translate(-50%, -50%) scale(1);
@@ -132,14 +137,34 @@ li {
     font-size: 60px;
 }
 
+.popup .prev {
+    color: white;
+    cursor: pointer;
+    text-shadow: 0px 0px 8px black;
+    font-size: 48px;
+    border: 4px solid gold;
+    box-shadow: 5px 6px black;
+    padding:12px;
+    margin-top:200px;
+}
+
+.ans {
+    visibility: hidden;
+}
+
+.answer {
+    visibility: visible;
+    color:greenyellow;
+}
+
 .popup button {
-    width:12%;
     margin-top: 50px;
-    padding: 10px 0;
+    margin-bottom: 20px;
+    padding: 10px 20px;
     border: 0;
     box-shadow: 4px 5px 5px rgba(0,0,0,0.7);
     outline: none;
-    font-size: 18px;
+    font-size: 20px;
     border-radius: 4px;
     cursor: pointer;
 }
