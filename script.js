@@ -198,10 +198,44 @@ function closePopup55() {
     popup5005.classList.remove("open-pop55");
 }
 //==================================================
+//QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ
+//==================================================
 let ans = document.getElementById("ans")
 function displayAns() {
     ans.classList.add("answer");
 }
 function removeAns() {
     ans.classList.remove("answer");
+}
+//==================================================
+let ans2 = document.getElementById("ans2")
+function displayAns2() {
+    ans2.classList.add("answer2");
+}
+function removeAns2() {
+    ans2.classList.remove("answer2");
+}
+//==================================================
+let ans3 = document.getElementById("ans3")
+function displayAns3() {
+    ans3.classList.add("answer3");
+}
+function removeAns3() {
+    ans3.classList.remove("answer3");
+}
+//==================================================
+let ans4 = document.getElementById("ans4")
+function displayAns4() {
+    ans4.classList.add("answer4");
+}
+function removeAns4() {
+    ans4.classList.remove("answer4");
+}
+//==================================================
+let ans5 = document.getElementById("ans5")
+function displayAns5() {
+    ans5.classList.add("answer5");
+}
+function removeAns5() {
+    ans5.classList.remove("answer5");
 }
